@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Image classification using MobileNet and p5.js</title>
+  <title>Video detection</title>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
@@ -10,8 +10,9 @@
 </head>
 
 <body>
-  <h1>Image classification using MobileNet and p5.js</h1>
-  <img crossorigin="anonymous" src="https://t4.ftcdn.net/jpg/03/11/22/37/360_F_311223759_2GqmuNTum7xElkCm9lyaw4ZZYqZE2Qlu.jpg"  id="image">
+  <h1>Video detection</h1>
+  <video crossorigin="anonymous" id="video" width="640" height="480" autoplay></video>
+  <h1 id="results"></h1>
   <script src="sketch.js"></script>
 </body>
 
